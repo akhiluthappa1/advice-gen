@@ -53,5 +53,10 @@ body{
 }
 .dice img{
     width: 30px;
-    
+}
+button{
+    background-color: hsl(150, 100%, 66%);
+}
+.image2{
+    width: 30px;
 }
