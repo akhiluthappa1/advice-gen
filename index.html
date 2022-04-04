@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="/styles/style.css" rel="stylesheet">
   
   <title>Frontend Mentor | Advice generator app</title>
 
@@ -12,9 +13,32 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    @import url('https://fonts.googleapis.com/css2?family=Manrope');
   </style>
 </head>
 <body>
+  <div class="full">
+  <div class="adviceid">
+  A D V I C E #<!-- Advice ID goes here -->
+  </div>
+  <div class="advice">
+  <p>LOL</p>
+  </div>
+  <div class="line">
+    <!-- <hr> -->
+    <picture>
+      <source media="(min-width:400px)" srcset="images/pattern-divider-desktop.svg">
+      <source media="(min-width:100px)" srcset="images/pattern-divider-mobile.svg">
+      <img src="images/pattern-divider-desktop.svg" alt="Flowers" style="width:auto;">
+    </picture>
+    
+    <!-- <img class="image1" src="images/pattern-divider-desktop.svg" /> -->
+    <!-- <hr> -->
+  </div>
+  <div class="dice">
+    <img class="image2" src="images/icon-dice.svg" alt="Flowers">
+  </div>
+  </div>
 
   Advice #<!-- Advice ID goes here -->
 
