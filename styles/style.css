@@ -21,6 +21,9 @@ body{
     color:  hsl(193, 38%, 86%);
     font-size: 28px;
 }
+.number{
+    font-size: 28px;
+}
 .line{
     /* display: flex; */
     margin-left: 5%;;
